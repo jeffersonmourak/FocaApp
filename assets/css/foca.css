@@ -1,3 +1,29 @@
-body{
-	background-color: #f58634;
+.body{
+	padding: 10px 20px;
 }
+.body.white{
+	background-color: #fff;
+}
+.subHeader{
+	background-color: #B7560E;
+	color: #fff;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.item:first-child, .item:last-child{
+	margin: 0;
+}
+
+.item{
+	width: 100%;
+	margin: 10px 0;
+	background-color: #464650;
+	color: #fff;
+}
+
