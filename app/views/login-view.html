@@ -1,0 +1,14 @@
+<div ng-controller="login" data-ng-init="checkIsSaved()">
+	<div ng-class="{'hide':!hide}">
+		<input type="text" ng-model="company.slug" placeholder="Empresa">
+		<button ng-click="checkCompany(company.slug)">Próximo</button>
+		{{ error }}
+	</div>
+	<div ng-class="{'hide':hide}">
+		<input type="email" ng-model="user.email" placeholder="email">
+		<input type="password" ng-model="user.password" placeholder="password">
+		<input type="checkbox" ng-model="keep">
+		<button ng-click="checkUser(user,company.id)">login</button>
+		{{ error }}
+	</div>
+</div>
