@@ -1,3 +1,35 @@
-body{
+.body.orange{
 	background-color: #f58634;
+}
+.body.login{
+	height: 100vh;
+}
+.center{
+	margin: 0 auto;
+}
+.textcenter{
+	text-align: center;
+}
+.cwhite{
+	color: #fff;
+}
+.bblue{
+	background: #01579b;
+}
+.bred{
+	background: #b71c1c;
+}
+.social{
+	margin: 0 auto;
+	width: 80%;
+	padding: 5px;
+	font-weight: bolder;
+}
+img.simbolo{
+		margin: 0 auto;
+	width: 150px;
+}
+.mid{
+	height: 100%;
+	padding-top: 20%;
 }
