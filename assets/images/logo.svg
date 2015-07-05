@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="91.9297mm" height="88.2233mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 15457 14834"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FEFEFE;stroke-width:252.207;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#363435;stroke-width:50.4414;stroke-linecap:round;stroke-linejoin:round}
+    .fil4 {fill:none}
+    .fil5 {fill:#FEFEFE}
+    .fil3 {fill:#373435}
+    .fil2 {fill:#363435}
+    .fil9 {fill:#292829}
+    .fil6 {fill:#2A1B1E}
+    .fil7 {fill:#37556D}
+    .fil8 {fill:#618BA3}
+    .fil1 {fill:#7A7079}
+    .fil0 {fill:#DED2CA}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_220151440">
+   <path class="fil0" d="M8786 14596c1074,-48 1988,-263 3163,-1078 747,-519 1634,-1447 1634,-2652l0 -3888c0,-1864 -1522,-3861 -3286,-4571 -502,-202 -1235,-319 -2006,-349l-822 0c-827,32 -1619,164 -2139,396 -1894,846 -3202,3041 -3023,5240 154,1891 -391,3680 664,4976 709,873 2170,1926 3708,1926l2107 0z"/>
+   <ellipse class="fil1" cx="5636" cy="10985" rx="2499" ry="2278"/>
+   <ellipse class="fil1" cx="10238" cy="10985" rx="2499" ry="2278"/>
+   <path class="fil2" d="M3024 10751c0,3533 4500,3136 4929,1266 83,241 198,360 346,533 1209,1409 4546,947 4546,-1879l0 -11c-1,-213 -36,-139 -158,-230 -370,275 -16,181 -233,968 -94,340 -233,589 -457,822 -842,880 -2231,1031 -3239,346 -505,-343 -650,-903 -868,-1357 -173,410 -441,2193 -2645,1872 -939,-137 -1607,-762 -1807,-1625 -72,-308 -76,-815 -176,-1026 -142,52 -238,58 -238,321z"/>
+   <polygon class="fil2 str0" points="7896,11247 5578,8728 10155,8728 "/>
+   <ellipse class="fil3" cx="5678" cy="6894" rx="707" ry="868"/>
+   <ellipse class="fil3" cx="10096" cy="6978" rx="707" ry="868"/>
+   <path class="fil4 str1" d="M10505 11593c496,331 1538,1121 1897,3076"/>
+   <path class="fil4 str1" d="M11057 10763c496,330 1835,1170 2393,2616"/>
+   <path class="fil4 str1" d="M11256 9822c881,330 1933,819 2927,1959"/>
+   <path class="fil4 str1" d="M5554 11632c-593,331 -1839,1121 -2270,3076"/>
+   <path class="fil4 str1" d="M4894 10802c-593,330 -2196,1169 -2863,2616"/>
+   <path class="fil4 str1" d="M4655 9860c-1053,331 -2311,819 -3501,1960"/>
+   <circle class="fil5" cx="5647" cy="10996" r="149"/>
+   <circle class="fil5" cx="5245" cy="10191" r="149"/>
+   <ellipse class="fil5" cx="10207" cy="10947" rx="147" ry="149"/>
+   <ellipse class="fil5" cx="10602" cy="10141" rx="147" ry="149"/>
+   <ellipse class="fil6" transform="matrix(4.80298 -0.11797 0.135392 5.51229 9175.37 4520.73)" rx="30" ry="48"/>
+   <ellipse class="fil6" transform="matrix(4.80298 -0.11797 0.135392 5.51229 6764.07 4494.08)" rx="29" ry="39"/>
+   <ellipse class="fil6" transform="matrix(4.80298 -0.11797 0.135392 5.51229 7934.2 4663.69)" rx="32" ry="41"/>
+   <polygon class="fil7" points="0,2076 3563,3142 3563,2499 12344,2482 12344,3127 15457,2124 7641,0 "/>
+   <path class="fil8" d="M3514 2289c2902,327 5912,192 8872,3l-50 1614c-2989,168 -6016,219 -8822,0l0 -1617z"/>
+   <polygon class="fil8" points="13616,5128 13752,5101 14241,5101 14078,4482 14078,1753 13807,1679 13807,4406 "/>
+   <path class="fil9" d="M3202 6717c0,-577 -100,-1092 324,-1307 360,-183 3263,-524 3263,1307 0,2017 -3587,1988 -3587,0zm5789 0c0,-621 143,-959 813,-1225 480,-190 1903,-368 2451,-83 495,258 751,2656 -1359,2797 -930,63 -1905,-387 -1905,-1489zm-6849 -1386l0 815c497,116 525,151 665,640 189,656 279,1208 1045,1564 788,366 2383,414 2988,-604 411,-694 281,-1844 1009,-1844 1129,0 349,1797 1767,2472 209,99 955,231 1236,209 904,-69 1508,-321 1839,-1019 160,-338 219,-835 374,-1093 276,-459 573,-3 573,-977 0,-268 -379,-344 -823,-482 -904,-282 -2690,-250 -3558,97 -735,293 -1932,330 -2677,23 -1207,-497 -3326,-389 -4438,199z"/>
+   <ellipse class="fil5" cx="2660" cy="5661" rx="246" ry="203"/>
+   <ellipse class="fil5" cx="13072" cy="5723" rx="246" ry="203"/>
+  </g>
+ </g>
+</svg>
