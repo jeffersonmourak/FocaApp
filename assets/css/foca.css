@@ -1,29 +1,7 @@
-.body{
-	padding: 10px 20px;
-}
-.body.white{
-	background-color: #fff;
+button{
+  border: none;
 }
 .subHeader{
-	background-color: #B7560E;
-	color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-
-.left{
-	float: left;
-}
-.right{
-	float: right;
-}
-
-.item:first-child, .item:last-child{
-	margin: 0;
-}
-
-.item{
-	width: 100%;
-	margin: 10px 0;
-	background-color: #464650;
-	color: #fff;
-}
-
