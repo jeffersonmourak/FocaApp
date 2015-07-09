@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jeffersonmourak/FocaApp/issues"
   },
-  "homepage": "https://github.com/jeffersonmourak/FocaApp"
+  "homepage": "https://github.com/jeffersonmourak/FocaApp",
+  "dependencies": {
+    "express": "^4.13.0",
+    "http": "0.0.0",
+    "socket.io": "^1.3.5",
+    "util": "^0.10.3"
+  }
 }
