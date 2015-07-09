@@ -1,65 +1,7 @@
-
-.body.orange{
-	background-color: #f58634;
-}
-.body.login{
-	height: 100vh;
-}
-.center{
-	margin: 0 auto;
-}
-.textcenter{
-	text-align: center;
-}
-.cwhite{
-	color: #fff;
-}
-.bblue{
-	background: #01579b;
-}
-.bred{
-	background: #b71c1c;
-}
-.social{
-	margin: 0 auto;
-	width: 80%;
-	padding: 5px;
-	font-weight: bolder;
-}
-img.simbolo{
-		margin: 0 auto;
-	width: 150px;
-}
-.mid{
-	height: 100%;
-	padding-top: 20%;
-}
-
-.body{
-	padding: 10px 20px;
-}
-.body.white{
-	background-color: #fff;
+button{
+  border: none;
 }
 .subHeader{
-	background-color: #B7560E;
-	color: #fff;
-}
-
-.left{
-	float: left;
-}
-.right{
-	float: right;
-}
-
-.item:first-child, .item:last-child{
-	margin: 0;
-}
-
-.item{
-	width: 100%;
-	margin: 10px 0;
-	background-color: #464650;
-	color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

@@ -1,156 +1,191 @@
-/* ============ CSSS RESET ============ */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+/* 
+Title: Grid FocaApp;
+Author: Lucas Miquéias;
+ */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row{
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgb(221, 221, 221);
+}
+.row.rowup{
+  margin-top: 5px;
+}
+.foc-1, .foc-2, .foc-3, .foc-4, .foc-5, .foc-6, .foc-7, .foc-8, .foc-9, .foc-10, .foc-11, .foc-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.contato-fomulario {}
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.foc-12 {
+  width: 100%;
 }
-body {
-	line-height: 1;
+.foc-11 {
+  width: 91.66666667%;
 }
-ol, ul {
-	list-style: none;
+.foc-10 {
+  width: 83.33333333%;
 }
-blockquote, q {
-	quotes: none;
+.foc-9 {
+  width: 75%;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.foc-8 {
+  width: 66.66666667%;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.foc-7 {
+  width: 58.33333333%;
 }
+.foc-6 {
+  width: 50%;
+}
+.foc-5 {
+  width: 41.66666667%;
+}
+.foc-4 {
+  width: 33.33333333%;
+}
+.foc-3 {
+  width: 25%;
+}
+.foc-2 {
+  width: 16.66666667%;
+}
+.foc-1 {
+  width: 8.33333333%;
+}
+.foc-pull-12 {
+  right: 100%;
+}
+.foc-pull-11 {
+  right: 91.66666667%;
+}
+.foc-pull-10 {
+  right: 83.33333333%;
+}
+.foc-pull-9 {
+  right: 75%;
+}
+.foc-pull-8 {
+  right: 66.66666667%;
+}
+.foc-pull-7 {
+  right: 58.33333333%;
+}
+.foc-pull-6 {
+  right: 50%;
+}
+.foc-pull-5 {
+  right: 41.66666667%;
+}
+.foc-pull-4 {
+  right: 33.33333333%;
+}
+.foc-pull-3 {
+  right: 25%;
+}
+.foc-pull-2 {
+  right: 16.66666667%;
+}
+.foc-pull-1 {
+  right: 8.33333333%;
+}
+.foc-pull-0 {
+  right: auto;
+}
+.foc-push-12 {
+  left: 100%;
+}
+.foc-push-11 {
+  left: 91.66666667%;
+}
+.foc-push-10 {
+  left: 83.33333333%;
+}
+.foc-push-9 {
+  left: 75%;
+}
+.foc-push-8 {
+  left: 66.66666667%;
+}
+.foc-push-7 {
+  left: 58.33333333%;
+}
+.foc-push-5 {
+  left: 41.66666667%;
+}
+.foc-push-4 {
+  left: 33.33333333%;
+}
+.foc-push-3 {
+  left: 25%;
+}
+.foc-push-2 {
+  left: 16.66666667%;
+}
+.foc-push-1 {
+  left: 8.33333333%;
+}
+.foc-push-0 {
+  left: auto;
+}
+.foc-offset-12 {
+  margin-left: 100%;
+}
+.foc-offset-11 {
+  margin-left: 91.66666667%;
+}
+.foc-offset-10 {
+  margin-left: 83.33333333%;
+}
+.foc-offset-9 {
+  margin-left: 75%;
+}
+.foc-offset-8 {
+  margin-left: 66.66666667%;
+}
+.foc-offset-7 {
+  margin-left: 58.33333333%;
+}
+.foc-offset-6 {
+  margin-left: 50%;
+}
+.foc-offset-5 {
+  margin-left: 41.66666667%;
+}
+.foc-offset-4 {
+  margin-left: 33.33333333%;
+}
+.foc-offset-3 {
+  margin-left: 25%;
+}
+.foc-offset-2 {
+  margin-left: 16.66666667%;
+}
+.foc-offset-1 {
+  margin-left: 8.33333333%;
+}
+.foc-offset-0 {
+  margin-left: 0%;
+}
+.col-offset-10 {
+  margin-left: 10%; }
 
+.col-offset-20 {
+  margin-left: 20%; }
 
-/* ============ GRID ============ */
+.col-offset-25 {
+  margin-left: 25%; }
 
-*, *:after, *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-[class*='col-'] {
-	float: left;
-}
-.grid {
-	width: 100%;
-	max-width: 1000px; 
-	min-width: 755px;
-	margin: 0 auto;
-	overflow-bottom: visible;
-}
-.grid:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.clear{ 
-	clear:both;
-}
-.col-12-12,.col-1-1 {
-	width: 100%;
-}
-.col-11-12 {
-	width: 91.66%
-}
-.col-10-12 {
-	width: 83.33%;
-}
-.col-9-12 {
-	width: 75%;
-}
-.col-8-12,.col-2-3 {
-	width: 66.66%;
-}
-.col-7-12 {
-	width: 58.33%
-}
-.col-6-12, .col-1-2 {
-	width: 50%;
-}
-.col-5-12 {
-	width: 41.66%;
-}
-.col-4-12, .col-1-3 {
-	width: 33.33%;
-}
-.col-3-12, .col-1-4 {
-	width: 25%;
-}
-.col-1-5 {
-	width: 20%;
-}
-.col-2-12, .col-1-6 {
-	width: 16.66%;
-}
-.col-1-12 {
-	width: 8.33%
-}
-/* tablets  */
-@media handheld, only screen and (max-width: 767px) {
-  .grid {
-		width: 100%;
-		min-width: 0;
-		margin: 0px;
-		padding: 0px;
-	}  
-  [class*='col-'] {
-    float: left;
-  }
-  .col-12-12,.col-1-1, .col-11-12, .col-10-12, .col-9-12, .col-8-12, .col-2-3, .col-7-12, .col-6-12,.col-1-2, .col-5-12  {
-	  width: 100%;
-  }
-  .col-4-12,.col-1-3, .col-3-12,.col-1-4 {
-    width: 50%;
-  }
-  .col-1-5, .col-2-12,.col-1-6 {
-    width: 25%;
-  }
-  .col-1-12 {
-    width: 16.66%;
-  }
-}
-@media handheld, only screen and (max-width: 420px) {
-  .grid {
-		width: 100%;
-		min-width: 0;
-		margin: 0px;
-		padding: 0px;
-	} 
-  [class*='col-'] {
-    float: left;
-  }  
-  .col-12-12,.col-1-1, .col-11-12, .col-10-12, .col-9-12, .col-8-12, .col-2-3, .col-7-12, .col-6-12,.col-1-2, .col-5-12, .col-4-12,.col-1-3, .col-3-12,.col-1-4 {
-	  width: 100%;
-  }
-  .col-1-5, .col-2-12,.col-1-6 {
-    width: 33.33%;
-  }
-  .col-1-12 {
-    width: 25%;
-  }
-}
+.col-offset-33, .col-offset-34 {
+  margin-left: 33.3333%; }
+
+.col-offset-50 {
+  margin-left: 50%; }
