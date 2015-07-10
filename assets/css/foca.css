@@ -1,7 +1,131 @@
-button{
-  border: none;
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/GothamLight.eot');
+    src: local('GothamLight'), url('../fonts/GothamLight.woff') format('woff'), url('../fonts/GothamLight.ttf') format('truetype');
 }
-.subHeader{
-  padding-top: 5px;
-  padding-bottom: 5px;
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/copyfonts.com_gotham_medium-webfont.eot');
+    src: url('../fonts/copyfonts.com_gotham_medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/copyfonts.com_gotham_medium-webfont.woff2') format('woff2'), url('../fonts/copyfonts.com_gotham_medium-webfont.woff') format('woff'), url('../fonts/copyfonts.com_gotham_medium-webfont.ttf') format('truetype'), url('../fonts/copyfonts.com_gotham_medium-webfont.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: sans-serif;
+    /* 1 */
+    
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+a {
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    color: #000;
+    font-family: 'GothamMedium' !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    width: 100%;
+}
+
+.body.orange {
+    background-color: rgb(220, 133, 61);
+}
+
+.body.full {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.logo {
+    height: auto;
+}
+
+.logo.login {
+    width: 96px;
+}
+
+.login-present {
+    padding-top: 48px;
+}
+
+.login-present * {
+    color: #fff;
+}
+
+.login-present h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.login-present span {
+    display: block;
+}
+
+.login-present .ultra-small {
+    margin: 0;
+    margin-top: 10px;
+    line-height: 10px;
+    font-size: 0.7em;
+    font-family: 'GothamLight' !important;
+}
+
+.login-present .text {
+    text-align: right;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.login-present .logo {
+    text-align: left;
+}
+
+.actions {
+    margin-top: 40px;
+}
+
+a:active .socialButton {
+    background-color: #fff;
+    color: #000;
+}
+
+.socialButton {
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    transition: all 200ms cubic-bezier(0, 0.36, 0.96, 0.82);
+}
+
+.socialButton.gplus {
+    background-color: #000;
+}
+
+.socialButton.facebook {
+    background-color: #000;
 }

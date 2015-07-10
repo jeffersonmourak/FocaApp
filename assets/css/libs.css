@@ -1,191 +1,57 @@
-/* 
-Title: Grid FocaApp;
-Author: Lucas Miquéias;
- */
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.row{
-    display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: rgb(221, 221, 221);
-}
-.row.rowup{
-  margin-top: 5px;
-}
-.foc-1, .foc-2, .foc-3, .foc-4, .foc-5, .foc-6, .foc-7, .foc-8, .foc-9, .foc-10, .foc-11, .foc-12 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+/* ============ CSSS RESET ============ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-.foc-12 {
-  width: 100%;
+.contato-fomulario {}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
-.foc-11 {
-  width: 91.66666667%;
+body {
+  line-height: 1;
 }
-.foc-10 {
-  width: 83.33333333%;
+ol, ul {
+  list-style: none;
 }
-.foc-9 {
-  width: 75%;
+blockquote, q {
+  quotes: none;
 }
-.foc-8 {
-  width: 66.66666667%;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
-.foc-7 {
-  width: 58.33333333%;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.foc-6 {
+
+/*ONDEMAND GRID*/
+
+.clear{
+  clear: both;
+}
+
+.side{
+  float: left;
   width: 50%;
 }
-.foc-5 {
-  width: 41.66666667%;
-}
-.foc-4 {
-  width: 33.33333333%;
-}
-.foc-3 {
-  width: 25%;
-}
-.foc-2 {
-  width: 16.66666667%;
-}
-.foc-1 {
-  width: 8.33333333%;
-}
-.foc-pull-12 {
-  right: 100%;
-}
-.foc-pull-11 {
-  right: 91.66666667%;
-}
-.foc-pull-10 {
-  right: 83.33333333%;
-}
-.foc-pull-9 {
-  right: 75%;
-}
-.foc-pull-8 {
-  right: 66.66666667%;
-}
-.foc-pull-7 {
-  right: 58.33333333%;
-}
-.foc-pull-6 {
-  right: 50%;
-}
-.foc-pull-5 {
-  right: 41.66666667%;
-}
-.foc-pull-4 {
-  right: 33.33333333%;
-}
-.foc-pull-3 {
-  right: 25%;
-}
-.foc-pull-2 {
-  right: 16.66666667%;
-}
-.foc-pull-1 {
-  right: 8.33333333%;
-}
-.foc-pull-0 {
-  right: auto;
-}
-.foc-push-12 {
-  left: 100%;
-}
-.foc-push-11 {
-  left: 91.66666667%;
-}
-.foc-push-10 {
-  left: 83.33333333%;
-}
-.foc-push-9 {
-  left: 75%;
-}
-.foc-push-8 {
-  left: 66.66666667%;
-}
-.foc-push-7 {
-  left: 58.33333333%;
-}
-.foc-push-5 {
-  left: 41.66666667%;
-}
-.foc-push-4 {
-  left: 33.33333333%;
-}
-.foc-push-3 {
-  left: 25%;
-}
-.foc-push-2 {
-  left: 16.66666667%;
-}
-.foc-push-1 {
-  left: 8.33333333%;
-}
-.foc-push-0 {
-  left: auto;
-}
-.foc-offset-12 {
-  margin-left: 100%;
-}
-.foc-offset-11 {
-  margin-left: 91.66666667%;
-}
-.foc-offset-10 {
-  margin-left: 83.33333333%;
-}
-.foc-offset-9 {
-  margin-left: 75%;
-}
-.foc-offset-8 {
-  margin-left: 66.66666667%;
-}
-.foc-offset-7 {
-  margin-left: 58.33333333%;
-}
-.foc-offset-6 {
-  margin-left: 50%;
-}
-.foc-offset-5 {
-  margin-left: 41.66666667%;
-}
-.foc-offset-4 {
-  margin-left: 33.33333333%;
-}
-.foc-offset-3 {
-  margin-left: 25%;
-}
-.foc-offset-2 {
-  margin-left: 16.66666667%;
-}
-.foc-offset-1 {
-  margin-left: 8.33333333%;
-}
-.foc-offset-0 {
-  margin-left: 0%;
-}
-.col-offset-10 {
-  margin-left: 10%; }
-
-.col-offset-20 {
-  margin-left: 20%; }
-
-.col-offset-25 {
-  margin-left: 25%; }
-
-.col-offset-33, .col-offset-34 {
-  margin-left: 33.3333%; }
-
-.col-offset-50 {
-  margin-left: 50%; }
